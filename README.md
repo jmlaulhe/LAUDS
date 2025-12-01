@@ -1,13 +1,15 @@
-# Hacking a plant pot in a vermicomposter
+# Hacking a plant pot into a vermicomposter
 
 We provide here a guide to hack a plant pot and transform it into a vermicomposter,
-a modular system that can be adapted to both vertical and horizontal configurations..
+a modular system that can be adapted to both vertical and horizontal configurations.
 
 You can also cite and access the project files at:
 
 <https://room11.es/projects/LAUDS-RgitA/>
 
 <https://gardenatlas.net/garden/jardin-acondicionado-1/?filter=2>
+
+
 
 ## Vision: Vermicomposter for Mediterranean Climates.
 
@@ -17,8 +19,11 @@ The documentation is intended to facilitate the adaptation of the design to diff
 
 ## Metadata
 
--   development stage: first stable version of the project, tests ongoing
--   license: CC BY-SA for documentation; CERN OHL-W for hardware process definitions.
+
+-   development stage: prototype, first stable version of the project, tests ongoing
+-   license: CERN-OHL-W for hardware process definitions (content of the 04_hardware folder),  CC BY-SA 4.0 for documentation;.
+-   subject area/type of hardware: (vertical) farming
+-   prerequisite: documentation made for future contributors
 
 ## Main outputs
 
@@ -73,13 +78,13 @@ Long term:
 
 ### Related projects
 
-see [source description file](/91_Explanation_book/content/22-sources.qmd)
+[to be completed]
 
 ## Funding
 
 This was developed inside the LAUDS Factories call, facing the challenge "Greening Urban Spaces: Innovate Vertical Farming Systems from Local Waste Streams".
 
-[LAUDS Local Accessible Urban Digital Sustainable Factories](www.lauds.eu) is a Horizon Europe research and innovation action - Co-funded by the European Union, 2024-2026, GA 101135986.
+[LAUDS Local Accessible Urban Digital Sustainable Factories](https://www.lauds.eu) is a Horizon Europe research and innovation action - Co-funded by the European Union, 2024-2026, GA 101135986.
 
 
 ## Main contributors:
@@ -91,10 +96,17 @@ This was developed inside the LAUDS Factories call, facing the challenge "Greeni
 -   AES Nuestra Señora de la Candelaria
 -   Ecosistema 41
 
-# Technicalities
+### work culture 
 
-To create a new version of the book:
+-   [guidelines](01_community/01_community_guidelines.md)
+-   [Code of conduct](01_community/02_coc.md)
 
--   modify the chapters. careful, do not modify the `_conc` files but modify the chapters files
--   run the concatenatechapters.r code to create concatenated chapters (the `_conc` files) from the chapter files
--   run `quarto preview` and `quarto publish` in the book folder in a terminal window
+## Documentation structure
+
+This readme contains the first level of information.
+in 
+- 01_community are saved our detailed documentation about the community practices
+- 02_project_history you will find information about past decisions in the project
+- 03_specification_concept you will find high level analysis of the hardware design like the list or requirements and user analysis
+- 04_hardware you will find information to build the hardware
+- 05_user_guides you will find information to use and maintain/dispose the hardware

@@ -1,3 +1,0 @@
-## Ethics statement {#sec-ethics-statement}
-
-State any ethics issue you project may have, and whether an ethics committee has been reviewing the project.

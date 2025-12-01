@@ -1,3 +1,0 @@
-## Use cases and application {#sec-use-cases-and-application}
-
-Highlight at least one relevant use case, theoretical or existent.
